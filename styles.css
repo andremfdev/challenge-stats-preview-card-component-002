@@ -21,29 +21,75 @@ main {
   background-color: hsl(244, 38%, 16%);
 }
 
-
 /********** MAIN **********/
 
 .title h1 {
-  font: 700 15px 'Inter',sans-serif;
+  font: 700 32px "Inter", sans-serif;
   color: hsl(0, 0%, 100%);
-  }
+}
 
 .title span {
   color: hsl(277, 64%, 61%);
 }
 
 .title p {
-  font: 400 'Inter',sans-serif;
-  color: hsla(0, 0%, 100%, 0.75);
- }
+  font: 400 15px "Inter", sans-serif;
+  line-height: 165%;
+  color: hsla(0, 0%, 100%, 0.6);
+}
 
-.infos h1 {
-  font: 400 15px 'Lexand Deca',sans-serif;
+.infos h2 {
+  font: 600 24px "Inter", sans-serif;
   color: hsl(0, 0%, 100%);
-  }
+}
 
 .infos p {
-  font: 400 'Lexand Deca',sans-serif;
-  color:  hsla(0, 0%, 100%, 0.6);
+  font: 400 15px "Lexend Deca", sans-serif;
+  letter-spacing: 1.5px;
+  color: hsla(0, 0%, 100%, 0.6);
+}
+
+main {
+  width: 100%;
+  max-width: 1111px;
+  height: 446px;
+  margin: 0 auto;
+  padding: 0 15px;
+  display: flex;
+  border-radius: 7px;
+  justify-content: space-between;
+}
+
+.text {
+  width: 100%;
+  max-width: 380px;
+  margin-left: 7rem;
+}
+
+.title {
+  margin-top: 70px;
+  margin-bottom: 70px;
+}
+
+.title h1 {
+  margin-bottom: 33px;
+}
+
+.title span {
+  font-size: 32px;
+}
+
+.title p {
+  width: 100%;
+  max-width: 350px;
+}
+
+.infos {
+  display: flex;
+  justify-content: space-between;
+  width: 100%;
+  max-width: 350px;
+}
+
+.infos h1 {
 }
