@@ -24,7 +24,7 @@ main {
 /********** MAIN **********/
 
 .title h1 {
-  font: 700 32px "Inter", sans-serif;
+  font: 700 32px 'Inter', sans-serif;
   color: hsl(0, 0%, 100%);
 }
 
@@ -33,18 +33,18 @@ main {
 }
 
 .title p {
-  font: 400 15px "Inter", sans-serif;
+  font: 400 15px 'Inter', sans-serif;
   line-height: 165%;
   color: hsla(0, 0%, 100%, 0.6);
 }
 
 .infos h2 {
-  font: 600 24px "Inter", sans-serif;
+  font: 600 24px 'Inter', sans-serif;
   color: hsl(0, 0%, 100%);
 }
 
 .infos p {
-  font: 400 15px "Lexend Deca", sans-serif;
+  font: 400 15px 'Lexend Deca', sans-serif;
   letter-spacing: 1.5px;
   color: hsla(0, 0%, 100%, 0.6);
 }
@@ -54,10 +54,11 @@ main {
   max-width: 1111px;
   height: 446px;
   margin: 0 auto;
-  padding: 0 15px;
+
   display: flex;
   border-radius: 7px;
   justify-content: space-between;
+  margin-top: 10rem;
 }
 
 .text {
@@ -92,4 +93,8 @@ main {
 }
 
 .infos h1 {
+}
+
+.image img {
+  border-radius: 0px 7px 7px 0px;
 }
