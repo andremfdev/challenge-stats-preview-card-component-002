@@ -11,6 +11,7 @@
 
 html {
   font-size: 62.5%;
+  position: relative;
 }
 
 body {
@@ -97,4 +98,18 @@ main {
 
 .image img {
   border-radius: 0px 0.7rem 0.7rem 0px;
+}
+.image {
+  position: relative;
+}
+
+.image::before {
+  content: '';
+  position: absolute;
+  width: 100%;
+  height: 100%;
+  left: 0;
+  top: 0;
+  background-color: hsla(275, 85%, 25%, 0.6);
+  filter: brightness(0.9);
 }
