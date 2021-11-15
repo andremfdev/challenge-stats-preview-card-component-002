@@ -95,11 +95,6 @@ main {
   margin-bottom: 0.8rem;
 }
 
-.image {
-  background: hsl(277, 64%, 61%);
-  z-index: 2;
-}
-
 .image img {
   border-radius: 0px 0.7rem 0.7rem 0px;
 }
