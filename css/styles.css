@@ -105,9 +105,9 @@ body {
   filter: brightness(0.9);
 }
 
-/*  media queries*/
+/* media queries  */
 
-/* @media (max-width: 1200px) {
+@media (max-width: 1200px) {
   .card {
     display: flex;
     flex-direction: column;
@@ -115,8 +115,21 @@ body {
   }
   .text {
     order: 2;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    align-items: center;
+    text-align: center;
+    width: 100%;
+  }
+  .text p {
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+    max-width: 100%;
+    margin-bottom: 3rem;
   }
   .image {
     order: 1;
   }
-} */
+}
