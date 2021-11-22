@@ -60,6 +60,11 @@ body {
   order: 1;
   background-color: hsl(244, 38%, 16%);
   border-radius: 0.7rem 0px 0px 0.7rem;
+  padding: 8rem;
+}
+
+.title {
+  margin-bottom: 7rem;
 }
 
 .title h1 {
@@ -77,9 +82,10 @@ body {
 
 .infos {
   display: flex;
-  gap: 5.5rem;
+  align-items: center;
+  justify-content: space-between;
   width: 100%;
-  max-width: 32rem;
+  max-width: 30rem;
 }
 
 .infos h2 {
@@ -103,6 +109,7 @@ body {
   top: 0;
   background-color: hsla(275, 85%, 25%, 0.6);
   filter: brightness(0.9);
+  border-radius: 0px 0.7rem 0.7rem 0px;
 }
 
 /* media queries  */
@@ -132,6 +139,5 @@ body {
   }
   .image {
     order: 1;
-    display:block;
   }
 }
