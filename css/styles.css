@@ -132,5 +132,6 @@ body {
   }
   .image {
     order: 1;
+    display:block;
   }
 }
