@@ -51,21 +51,21 @@ body {
 }
 
 .title p {
-  font: 400 1.3rem 'Inter', sans-serif;
+  font: 400 1.49rem 'Inter', sans-serif;
   line-height: 175%;
   color: hsla(0, 0%, 100%, 0.6);
   width: 100%;
-  max-width: 32rem;
+  max-width: 35.2rem;
 }
 
 .infos h2 {
-  font: 600 2rem 'Inter', sans-serif;
+  font: 600 2.3rem 'Inter', sans-serif;
   color: hsl(0, 0%, 100%);
   margin-bottom: 0.8rem;
 }
 
 .infos p {
-  font: 400 1rem 'Lexend Deca', sans-serif;
+  font: 400 1.2rem 'Lexend Deca', sans-serif;
   letter-spacing: 0.1rem;
   color: hsla(0, 0%, 100%, 0.6);
 }
@@ -78,12 +78,12 @@ body {
   display: flex;
   flex-direction: column;
   gap: 7rem;
-  padding: 7rem;
+  padding: 6rem;
 }
 
 .text .infos {
   width: 100%;
-  max-width: 30rem;
+  max-width: 34rem;
   display: flex;
   flex-direction: row;
   justify-content: space-between;
@@ -110,13 +110,58 @@ body {
   border-radius: 0px 0.7rem 0.7rem 0px;
 }
 
+footer {
+  text-align: center;
+  color: hsl(0, 0%, 100%);
+  font-size: 1rem;
+  padding: 0 1rem 1rem;
+  margin-top: 3rem;
+  line-height: 275%;
+}
+
+footer a {
+  transition: all 0.3s;
+  padding-bottom: 2px;
+  text-decoration: none;
+  font-weight: 700;
+  color: hsl(277, 64%, 61%);
+  box-shadow: 0 2px 0 0 hsl(277, 64%, 61%);
+}
+
+footer span {
+  color: hsl(0, 100%, 47%);
+  font-size: 1.25rem;
+}
+
+footer a:hover {
+  color: hsl(277, 64%, 55%);
+  box-shadow: none;
+}
+
 /* media queries  */
 
 @media (max-width: 1200px) {
+  html {
+    font-size: 55%;
+  }
+
+  .image {
+    left: 3rem;
+  }
+  .image::before {
+    width: 94.5%;
+  }
+
+  .image img {
+    width: 94.5%;
+  }
+}
+
+@media (max-width: 991px) {
   .container {
     width: 100%;
-    max-width: 54rem;
-    height: 90rem;
+    max-width: 32.7rem;
+    height: 80rem;
     margin: 0 auto;
     background-color: hsl(244, 38%, 16%);
   }
@@ -124,7 +169,8 @@ body {
     display: flex;
     flex-direction: column;
     align-items: center;
-    padding-bottom: 3rem;
+    padding-bottom: 50rem;
+    margin-top: 5rem;
   }
   .text {
     order: 2;
@@ -133,27 +179,47 @@ body {
     justify-content: space-between;
     align-items: center;
     text-align: center;
-    width: 100%;
-    height: 80px;
+    height: 5.2rem;
+    gap: 0;
+    padding: 3rem;
+  }
+  .title h1 {
+    font-size: 2.6rem;
+    margin-bottom: 2rem;
+  }
+
+  .title span {
+    font-size: 2.6rem;
+  }
+  .title p {
+    font-size: 1.5rem;
   }
   .text p {
     align-items: center;
     justify-content: center;
     text-align: center;
     max-width: 100%;
-    margin-bottom: 3rem;
+    margin-bottom: 3.5rem;
   }
   .image {
     order: 1;
     border-radius: 0px;
+    left: 0;
   }
 
   .image img {
     height: auto;
-    border-radius: 0px;
+    border-radius: 0.87rem 0.8rem 0rem 0rem;
+    width: 100%;
   }
 
   .image::before {
     border-radius: 0px;
+    width: 100%;
+    border-radius: 0.87rem 0.8rem 0rem 0rem;
+  }
+  .text .infos {
+    display: flex;
+    flex-direction: column;
   }
 }
