@@ -101,7 +101,7 @@ obs: To have access to the original layout in FIGMA, the front alteror has a pai
 <h3 id="technologies"><strong>⚙️ Technologies</strong></h3>
 
 <hr>
-As tecnologias usadas para esse projeto foram:
+The technologies used for this project were:
 
 - [HTML](https://developer.mozilla.org/en-US/docs/Web/HTML)
 - [CSS](https://developer.mozilla.org/en-US/docs/Web/CSS)
