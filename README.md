@@ -85,6 +85,25 @@ obs: To have access to the original layout in FIGMA, the front alteror has a pai
 
 <br>
 
+<h3 id="deploy"><strong>🔍 Audit metrics - Lighthouse</strong></h3>
+
+<hr>
+
+<h3><strong>Audit web apps with Lighthouse</strong></h3>
+<p>Lighthouse is an open-source automated tool that improves the quality of web apps. It can run as a Chrome extension or from the command line. Tell Lighthouse a URL you want to audit. It will run a series of tests on the page and report on the page's performance. In this report, you can use the tests that failed as indicators of what can be done to improve the application.
+
+Note: Right now, Lighthouse focuses primarily on Progressive Web Apps features such as Add to Home screen and offline mode support. However, the overall goal of the project is to provide a comprehensive audit of all aspects of a web app's quality. </p>
+<br>
+
+<p align="center">
+  <img 
+    src="./readme-assets/audit-metrics-Lighthouse.gif"
+    width="1000px" 
+    style="display: inline; border-radius: 15px; border: "
+  />
+
+<br>
+
 <h3 id="challenges"><strong>🎯 Challenges</strong></h3>
 
 <hr>
