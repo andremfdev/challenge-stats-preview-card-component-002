@@ -9,10 +9,8 @@
 
 </div>
 
-
-
 <p align="center">
- <a href="#sobre">About</a> •
+ <a href="#about">About</a> •
  <a href="#layout">Layout</a> •
  <a href="#deploy">Deploy</a> •
  <a href="#challenges">Challenges</a> •
@@ -34,7 +32,7 @@
 <p align="center">
   <img 
     src="./readme-assets/readme-mobile.gif"
-    width="300px" height="450"
+     height="550px"
     style="display: inline; border-radius: 15px; border: "
   />
 </p>
@@ -49,7 +47,7 @@ To accomplish this challenge, you could use whatever tools you want to help comp
 
 In the end users must be able to:
 
-* View optimal layout depending on device screen size</p>
+- View optimal layout depending on device screen size</p>
 
 <br>
 
@@ -58,10 +56,11 @@ In the end users must be able to:
 <hr>
 Project layout provided by the frontend through PNG image. All the grid detail was developed by me using metric tools in <a href="https://www.figma.com/file/9Z2vxc8VTRuZpYjFalCMAl/Badge-Do-While2021-(Copy)?node-id=0%3A1"><strong>FIGMA</strong></a> itself, as I don't have access to the original material.
 
-obs: To have access to the original layout in FIGMA, the front alteror has a paid subscription. 
+obs: To have access to the original layout in FIGMA, the front alteror has a paid subscription.
 <br>
 <br>
 <br>
+
 <h3 align="center"><strong>Desktop model</strong></h3>
 <p align="center">
   <img 
@@ -105,7 +104,6 @@ The technologies used for this project were:
 
 - [HTML](https://developer.mozilla.org/en-US/docs/Web/HTML)
 - [CSS](https://developer.mozilla.org/en-US/docs/Web/CSS)
-
 
 <br>
 
