@@ -54,7 +54,7 @@ In the end users must be able to:
 <h3 id="layout"><strong>📐 Layout</strong></h3>
 
 <hr>
-Project layout provided by the frontend through PNG image. All the grid detail was developed by me using metric tools in <a href="https://www.figma.com/file/9Z2vxc8VTRuZpYjFalCMAl/Badge-Do-While2021-(Copy)?node-id=0%3A1"><strong>FIGMA</strong></a> itself, as I don't have access to the original material.
+Project layout provided by the frontend through PNG image. All the grid detail was developed by me using metric tools in <a href="https://www.figma.com"><strong>FIGMA</strong></a> itself, as I don't have access to the original material.
 
 obs: To have access to the original layout in FIGMA, the front alteror has a paid subscription.
 <br>
@@ -81,7 +81,7 @@ obs: To have access to the original layout in FIGMA, the front alteror has a pai
 
 <hr>
 
-[Github Pages](https://andremksdev.github.io/nlwHeat-cracha-doWhile2021/)
+[Github Pages](https://andremksdev.github.io/challenge-stats-preview-card-component-002/)
 
 <br>
 
@@ -111,7 +111,7 @@ The technologies used for this project were:
 
 <hr>
 
-<img alt="ARTHUR PC" title="ARTHUR PC" src="https://avatars.githubusercontent.com/u/82080573?v=4" height="100" width="100" />
+<img alt="andremksdev" title="andremksdev" src="https://avatars.githubusercontent.com/u/82080573?v=4" height="100" width="100" />
 
 Made by andremksdev 👋
 
