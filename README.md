@@ -56,14 +56,25 @@ In the end users must be able to:
 <h3 id="layout"><strong>📐 Layout</strong></h3>
 
 <hr>
-Project Layout in <a href="https://www.figma.com/file/9Z2vxc8VTRuZpYjFalCMAl/Badge-Do-While2021-(Copy)?node-id=0%3A1"><strong>FIGMA</strong></a>
+Project layout provided by the frontend through PNG image. All the grid detail was developed by me using metric tools in <a href="https://www.figma.com/file/9Z2vxc8VTRuZpYjFalCMAl/Badge-Do-While2021-(Copy)?node-id=0%3A1"><strong>FIGMA</strong></a> itself, as I don't have access to the original material.
+
+obs: To have access to the original layout in FIGMA, the front alteror has a paid subscription. 
 <br>
 <br>
 <br>
+<h3 align="center"><strong>Desktop model</strong></h3>
 <p align="center">
   <img 
-    src="./readme-assets/layout-figma.JPG"
+    src="./design/desktop-design.jpg"
     width="700px" 
+    style="display: inline; border-radius: 15px; border: "
+  />
+
+  <h3 align="center"><strong>Mobile model</strong></h3>
+<p align="center">
+  <img 
+    src="./design/mobile-design.jpg"
+    width="300px" 
     style="display: inline; border-radius: 15px; border: "
   />
 
@@ -80,7 +91,10 @@ Project Layout in <a href="https://www.figma.com/file/9Z2vxc8VTRuZpYjFalCMAl/Bad
 <hr>
 
 - [x] Desktop version
-- [x] Apply animations
+- [x] Mobile version
+- [x] Flexbox
+- [x] Responsive
+- [x] Use of ::before
 
 <br>
 
@@ -91,7 +105,7 @@ As tecnologias usadas para esse projeto foram:
 
 - [HTML](https://developer.mozilla.org/en-US/docs/Web/HTML)
 - [CSS](https://developer.mozilla.org/en-US/docs/Web/CSS)
-- [JS](https://developer.mozilla.org/en-US/docs/Web/JavaScript)
+
 
 <br>
 
