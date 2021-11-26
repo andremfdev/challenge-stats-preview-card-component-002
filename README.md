@@ -134,4 +134,6 @@ The technologies used for this project were:
 
 Made by andremksdev 👋
 
-[![LinkedIn Badge](https://img.shields.io/badge/-andremksdev-blue?style=flat-square&logo=Linkedin&logoColor=white&link=https://www.linkedin.com/in/andremksdev/)](https://www.linkedin.com/in/andremksdev/)
+[![Linkedin Badge](https://img.shields.io/badge/-andremksdev-blue?style=flat-square&logo=Linkedin&logoColor=white&link=https://www.linkedin.com/in/andremksdev/)](https://www.linkedin.com/in/andremksdev/)
+[![Twitter Badge](https://img.shields.io/badge/andremksdev-1DA1F2?style=flat-square&logo=twitter&logoColor=white&link=https://www.twitter.com/andremksdev/)](https://www.twitter.com/andremksdev/)
+[![Twitter Badge](https://img.shields.io/badge/andremks.dev-E4405F?style=flat-square&logo=instagram&logoColor=white&link=https://www.instagram.com/andremks.dev/)](https://www.instagram.com/andremks.dev/)
